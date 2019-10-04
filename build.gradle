@@ -1,0 +1,17 @@
+plugins {
+    id 'java-library'
+}
+
+repositories {
+    mavenCentral()
+}
+
+def reactorVersion = '3.3.0.RELEASE'
+def jUnitVersion = '4.12'
+
+dependencies {
+    implementation "io.projectreactor:reactor-core:$reactorVersion"
+
+    testImplementation "junit:junit:$jUnitVersion"
+    testImplementation "io.projectreactor:reactor-test:$reactorVersion"
+}
