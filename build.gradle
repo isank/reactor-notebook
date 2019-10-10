@@ -15,3 +15,7 @@ dependencies {
     testImplementation "junit:junit:$jUnitVersion"
     testImplementation "io.projectreactor:reactor-test:$reactorVersion"
 }
+
+test {
+    useJUnit()
+}
