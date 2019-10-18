@@ -1,4 +1,4 @@
-[![][travis img]][travis]
+[![build](https://travis-ci.org/isank/reactor-notebook.svg?branch=master)](https://travis-ci.org/isank/reactor-notebook)
 
 ### What it is?
 
