@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "present": "conventionalcommits"
+      }
+    ],
+    "@semantic-release/release-notes-generator",
+    "gradle-semantic-release-plugin",
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["gradle.properties"]
+      }
+    ]
+  ]
+}
