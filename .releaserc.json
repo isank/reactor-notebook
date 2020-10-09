@@ -3,10 +3,15 @@
     [
       "@semantic-release/commit-analyzer",
       {
-        "present": "conventionalcommits"
+        "preset": "conventionalcommits"
       }
     ],
-    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "preset": "conventionalcommits"
+      }
+    ],
     "gradle-semantic-release-plugin",
     [
       "@semantic-release/git",
